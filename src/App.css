@@ -3,6 +3,10 @@
 @theme {
   --font-Bakh: Bakh;
   --font-Peyda: Peyda;
+
+  --color-primary: #f4b84e;
+  --color-secondary: #0dac66;
+  --color-light: #fff9ef;
 }
 
 @font-face {
@@ -48,6 +52,8 @@
 
 @layer base {
   body {
+    @apply bg-light;
+
     font-family: Peyda;
   }
 }
