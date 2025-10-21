@@ -8,7 +8,7 @@ export interface IHeaderMenu {
 
 export const HeaderLink: React.FC<IHeaderMenu> = ({ link, title }) => {
   return (
-    <Link className="text-primary font-Peyda font-bold" to={link}>
+    <Link className="text-top-learn-primary font-Peyda font-bold" to={link}>
       {title}
     </Link>
   );

@@ -3,16 +3,6 @@
 
 @custom-variant dark (&:is(.dark *));
 
-@theme {
-  --font-Bakh: Bakh;
-  --font-Peyda: Peyda;
-
-  --color-top-learn-primary: #f4b84e;
-  --color-top-learn-secondary: #0dac66;
-  --color-top-learn-light: #fff9ef;
-  --color-top-learn-dark: #2b3440;
-}
-
 @font-face {
   font-family: Bakh;
   font-style: normal;
@@ -56,13 +46,21 @@
 
 @layer base {
   body {
-    @apply bg-light;
+    @apply bg-top-learn-light;
 
     font-family: Peyda;
   }
 }
 
 @theme inline {
+  --font-Bakh: Bakh;
+  --font-Peyda: Peyda;
+
+  --color-top-learn-primary: #f4b84e;
+  --color-top-learn-secondary: #0dac66;
+  --color-top-learn-light: #fff9ef;
+  --color-top-learn-dark: #2b3440;
+
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);

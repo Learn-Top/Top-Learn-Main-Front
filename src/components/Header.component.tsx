@@ -20,7 +20,7 @@ export const Header = () => {
   return (
     <header className="container flex items-center justify-between py-6">
       <div className="flex items-center gap-10">
-        <h1 className="font-Bakh text-secondary text-3xl font-extrabold">
+        <h1 className="font-Bakh text-top-learn-secondary text-3xl font-extrabold">
           تاپ لرن
         </h1>
 
