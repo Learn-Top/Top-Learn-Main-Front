@@ -1,15 +1,15 @@
 import { Link } from "react-router";
 import StudentImage from "../assets/imgs/introduction-student.png";
 import { IoIosArrowRoundBack } from "react-icons/io";
+import { H2 } from "./shared/h2.component";
 
 export const Introduction = () => {
   return (
     <div className="container">
       <div className="flex grid-cols-2 flex-col-reverse items-center md:grid">
         <div className="text-top-learn-dark col-span-2 md:col-span-1">
-          <h2 className="font-Peyda text-3xl font-extrabold lg:text-4xl">
-            با تاپ لرن یادگیری آسونه ;)
-          </h2>
+          <H2 title="با تاپ لرن یادگیری آسونه ;)" />
+
           <p className="mt-4 mb-8 text-lg lg:text-xl">
             با دوره‌های آنلاین متنوع و اساتید حرفه‌ای، می‌توانید در هر زمان و
             مکان، مهارت‌های جدید بیاموزید و از مسیر یادگیری لذت ببرید.

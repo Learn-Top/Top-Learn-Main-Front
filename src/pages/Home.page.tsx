@@ -1,6 +1,7 @@
-import { Header } from "../components/Header.component";
-import { HomeTopPattern } from "../components/HomeTopPattern.component";
-import { Introduction } from "../components/Introduction.component";
+import { Features } from "@/components/Features.component";
+import { Header } from "@/components/Header.component";
+import { HomeTopPattern } from "@/components/HomeTopPattern.component";
+import { Introduction } from "@/components/Introduction.component";
 
 export const Home = () => {
   return (
@@ -8,6 +9,7 @@ export const Home = () => {
       <HomeTopPattern />
       <Header />
       <Introduction />
+      <Features />
     </div>
   );
 };
