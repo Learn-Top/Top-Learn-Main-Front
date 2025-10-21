@@ -18,7 +18,7 @@ const HeaderMenus: IHeaderMenu[] = [
 
 export const Header = () => {
   return (
-    <header className="container flex items-center justify-between py-6">
+    <header className="bg-top-learn-light fixed top-0 right-0 left-0 z-20 container flex h-18 items-center justify-between md:h-25">
       <div className="flex items-center gap-10">
         <h1 className="font-Bakh text-top-learn-secondary text-3xl font-extrabold">
           تاپ لرن

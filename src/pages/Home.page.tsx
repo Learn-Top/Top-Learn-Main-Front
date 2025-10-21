@@ -5,7 +5,7 @@ import { Introduction } from "@/components/Introduction.component";
 
 export const Home = () => {
   return (
-    <div className="min-h-dvh">
+    <div className="min-h-dvh pt-10 md:pt-25">
       <HomeTopPattern />
       <Header />
       <Introduction />

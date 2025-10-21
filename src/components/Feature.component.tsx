@@ -16,7 +16,7 @@ export const Feature: React.FC<IFeature> = ({ title, description, icon }) => {
         </p>
       </div>
 
-      <div className="inset-y-0 left-0 col-span-1 my-auto size-60 md:absolute">
+      <div className="inset-y-0 left-0 z-10 col-span-1 my-auto size-60 md:absolute">
         <img src={icon} alt="feature-icon" />
       </div>
     </div>
