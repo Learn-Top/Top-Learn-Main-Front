@@ -4,7 +4,7 @@ export const Introduction = () => {
   return (
     <div className="container">
       <div className="flex grid-cols-2 flex-col-reverse items-center md:grid">
-        <div className="text-dark col-span-2 md:col-span-1">
+        <div className="text-top-learn-dark col-span-2 md:col-span-1">
           <h2 className="font-Peyda text-3xl font-extrabold lg:text-4xl">
             با تاپ لرن یادگیری آسونه ;)
           </h2>
