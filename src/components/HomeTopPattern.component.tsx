@@ -1,6 +1,6 @@
 export const HomeTopPattern = () => {
   return (
-    <i className="fixed top-0 right-0">
+    <i className="fixed top-0 right-0 -z-10">
       <svg
         width="531"
         height="531"
