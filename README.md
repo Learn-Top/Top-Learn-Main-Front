@@ -1,75 +1,82 @@
-# React + TypeScript + Vite
+# TopLearn -- Online & Offline Learning Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TopLearn is a modern e-learning platform that provides both **online**
+and **offline** courses for learners worldwide.\
+Teachers can create their own profiles, upload courses, and interact
+with students, while learners can easily browse, enroll, and leave
+feedback.
 
-Currently, two official plugins are available:
+This repository contains the source code and documentation for the
+**TopLearn public project**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- 📚 **Diverse Courses** -- Access to online and offline courses in
+  multiple fields.\
+- 👨‍🏫 **Teacher Profiles** -- Instructors can create dedicated profiles
+  to showcase their expertise.\
+- ⭐ **Student Feedback** -- Learners can rate and review courses and
+  instructors.\
+- 🎯 **Personalized Learning** -- Tailored study plans based on
+  student goals and time availability.\
+- 🖥 **Modern UI/UX** -- Clean, responsive, and accessible interface.\
+- 🔒 **Authentication** -- Secure login, JWT/OTP authentication for
+  both students and teachers.\
+- 🗂 **Course Management** -- Upload, organize, and manage course
+  content with ease.
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Frontend**: Next.js, React, TailwindCSS, shadcn/ui
+- **Deployment**: Docker, CI/CD pipelines
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## ⚡ Getting Started
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 1. Clone the repository
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 3. Run with npm
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 4. Access the platform
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Frontend: `http://localhost:3000`
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Please open an issue or submit a pull request if you'd like to improve
+the platform.
+
+Steps:
+
+1. Fork the repository
+2. Create a new feature branch (`git checkout -b feature-name`)
+3. Commit changes (`git commit -m "Add new feature"`)
+4. Push branch (`git push origin feature-name`)
+5. Open a Pull Request
+
+---
+
+## 📜 License
+
+This project is licensed under the [TopLearn Proprietary License](./LICENSE)
+
+---
+
+## 🌍 About
+
+TopLearn is built with the vision of **accessible and personalized
+education for everyone**.
+Our mission is to empower both teachers and students with tools that
+make online learning engaging, effective, and enjoyable.
+
+---
+
+Made with ❤️ by the TopLearn Team.

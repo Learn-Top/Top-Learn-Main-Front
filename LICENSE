@@ -1,0 +1,64 @@
+TopLearn Proprietary License
+Version 1.0 — © 2025 TopLearn Development Team. All rights reserved.
+
+This repository and all its source code, designs, documents, and files are released under the "TopLearn Proprietary License".  
+This license is NOT open source, and any usage outside the scope defined below is strictly prohibited.
+
+---
+
+1. Definitions
+
+- "Official Repository": this repository, maintained and hosted by the TopLearn development team.
+- "You" or "User": any person who accesses, views, clones, executes, or modifies the source code.
+- "Development Team": the rightful owner(s) of this project (TopLearn Team) who hold full legal rights to the code.
+
+2. Granted Rights
+   You are granted a limited, non-exclusive, non-transferable, and revocable license to:
+
+- View and execute the code.
+- Contribute to the project only within the Official Repository.  
+  Any other usage, including commercial use, requires prior written permission from the Development Team.
+
+3. Restrictions
+   You are NOT permitted to:
+
+1) Copy, republish, sell, rent, sublicense, or distribute the code (in whole or in part) outside of the Official Repository.
+2) Create derivative works or public forks outside the official contribution process (Pull Requests to this repository).
+3) Use the code in any other project, product, service, or environment separate from this Official Repository.
+4) Release binaries, builds, or packages generated from this code without prior written approval.
+5) Perform reverse engineering, data extraction, or use the code to train AI/ML models without permission.
+6) Remove or alter any copyright, attribution, or legal notices.
+
+4. Development Within the Repository Only
+   All modifications, bug fixes, features, and development discussions must take place exclusively within this Official Repository.
+
+- Forking is permitted only for the purpose of submitting Pull Requests back to the repository and only as private forks.
+- Maintaining or publishing modified versions outside of this repository is prohibited.
+
+5. Contributions
+   By submitting a Pull Request or any contribution:
+
+- You affirm the contribution is original and you hold the rights to submit it.
+- You grant the Development Team a perpetual, irrevocable, worldwide, royalty-free license to use, modify, merge, publish, and relicense your contribution; or transfer ownership if requested.
+- You agree to follow contribution guidelines and decisions made by the Development Team.
+
+6. Third-Party Dependencies
+   Some third-party packages or code may be used under their own licenses. Their terms remain unaffected by this license.
+
+7. Termination
+   Any violation of this license will result in immediate and automatic termination of your rights. The Development Team may revoke this license at any time and for any valid reason.  
+   Upon termination, you must immediately cease usage and delete any local or distributed copies.
+
+8. Disclaimer of Warranty
+   The project is provided "AS IS", without any warranties, express or implied. The Development Team shall not be held liable for any damages resulting from your use of the code.
+
+9. Governing Law & Disputes
+   The governing law and dispute resolution venue will be determined by the Development Team. Disputes shall first be resolved amicably; otherwise, they may be pursued before competent authorities.
+
+10. Contact
+    For commercial use or permissions outside the scope of this license, please contact the Development Team:
+    AliMoradi0Business@gmail.com
+
+---
+
+© 2025 TopLearn Development Team — All Rights Reserved.
