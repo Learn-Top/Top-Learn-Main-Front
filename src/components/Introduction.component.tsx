@@ -1,0 +1,23 @@
+import StudentImage from "../assets/imgs/introduction-student.png";
+
+export const Introduction = () => {
+  return (
+    <div className="container">
+      <div className="flex grid-cols-2 flex-col-reverse items-center md:grid">
+        <div className="text-dark col-span-2 md:col-span-1">
+          <h2 className="font-Peyda text-3xl font-extrabold lg:text-4xl">
+            با تاپ لرن یادگیری آسونه ;)
+          </h2>
+          <p className="mt-4 text-lg lg:text-xl">
+            با دوره‌های آنلاین متنوع و اساتید حرفه‌ای، می‌توانید در هر زمان و
+            مکان، مهارت‌های جدید بیاموزید و از مسیر یادگیری لذت ببرید.
+          </p>
+        </div>
+
+        <div className="col-span-2 flex justify-center md:col-span-1 md:justify-end">
+          <img src={StudentImage} alt="introduction-student-image" />
+        </div>
+      </div>
+    </div>
+  );
+};
