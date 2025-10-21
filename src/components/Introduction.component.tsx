@@ -7,7 +7,7 @@ export const Introduction = () => {
   return (
     <div className="container">
       <div className="flex grid-cols-2 flex-col-reverse items-center md:grid">
-        <div className="text-top-learn-dark col-span-2 md:col-span-1">
+        <div className="text-top-learn-dark col-span-2 mt-10 md:col-span-1 md:mt-0">
           <H2 title="با تاپ لرن یادگیری آسونه ;)" />
 
           <p className="mt-4 mb-8 text-lg lg:text-xl">
