@@ -1,4 +1,6 @@
+import { Link } from "react-router";
 import StudentImage from "../assets/imgs/introduction-student.png";
+import { IoIosArrowRoundBack } from "react-icons/io";
 
 export const Introduction = () => {
   return (
@@ -8,10 +10,17 @@ export const Introduction = () => {
           <h2 className="font-Peyda text-3xl font-extrabold lg:text-4xl">
             با تاپ لرن یادگیری آسونه ;)
           </h2>
-          <p className="mt-4 text-lg lg:text-xl">
+          <p className="mt-4 mb-8 text-lg lg:text-xl">
             با دوره‌های آنلاین متنوع و اساتید حرفه‌ای، می‌توانید در هر زمان و
             مکان، مهارت‌های جدید بیاموزید و از مسیر یادگیری لذت ببرید.
           </p>
+
+          <Link
+            className="bg-top-learn-dark font-Bakh text-top-learn-light inline-flex h-10 items-center gap-2 rounded-xl px-5 transition-all hover:gap-4"
+            to="/"
+          >
+            بزن بریم <IoIosArrowRoundBack size={32} />
+          </Link>
         </div>
 
         <div className="col-span-2 flex justify-center md:col-span-1 md:justify-end">
