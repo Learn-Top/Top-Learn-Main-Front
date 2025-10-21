@@ -14,16 +14,16 @@ This repository contains the source code and documentation for the
 ## 🚀 Features
 
 - 📚 **Diverse Courses** -- Access to online and offline courses in
-  multiple fields.\
+  multiple fields.
 - 👨‍🏫 **Teacher Profiles** -- Instructors can create dedicated profiles
-  to showcase their expertise.\
+  to showcase their expertise.
 - ⭐ **Student Feedback** -- Learners can rate and review courses and
-  instructors.\
+  instructors.
 - 🎯 **Personalized Learning** -- Tailored study plans based on
-  student goals and time availability.\
-- 🖥 **Modern UI/UX** -- Clean, responsive, and accessible interface.\
+  student goals and time availability.
+- 🖥 **Modern UI/UX** -- Clean, responsive, and accessible interface.
 - 🔒 **Authentication** -- Secure login, JWT/OTP authentication for
-  both students and teachers.\
+  both students and teachers.
 - 🗂 **Course Management** -- Upload, organize, and manage course
   content with ease.
 
