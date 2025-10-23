@@ -24,7 +24,11 @@ export const Introduction = () => {
         </div>
 
         <div className="col-span-2 flex justify-center md:col-span-1 md:justify-end">
-          <img src={StudentImage} alt="introduction-student-image" />
+          <img
+            loading="lazy"
+            src={StudentImage}
+            alt="introduction-student-image"
+          />
         </div>
       </div>
     </div>

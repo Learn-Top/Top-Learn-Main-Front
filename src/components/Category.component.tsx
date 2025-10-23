@@ -10,6 +10,7 @@ export const Category: React.FC<ICategory> = ({ id, title, image }) => {
     >
       <img
         src={image}
+        loading="lazy"
         alt="category-image"
         className="size-30 overflow-hidden rounded-full"
       />
