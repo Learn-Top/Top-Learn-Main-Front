@@ -1,21 +1,7 @@
 import React from "react";
 import { GoToApp } from "./GoToApp.component";
-import { HeaderLink, type IHeaderMenu } from "./HeaderLink.component";
-
-const HeaderMenus: IHeaderMenu[] = [
-  {
-    title: "خانه",
-    link: "/",
-  },
-  {
-    title: "وبلاگ",
-    link: "/blog",
-  },
-  {
-    title: "درباره ما",
-    link: "/about-us",
-  },
-];
+import { HeaderLink } from "./HeaderLink.component";
+import { HeaderMenus } from "@/mocks/top-learn-header-menus.mock";
 
 export const Header = () => {
   const [isWindowScrolled, setIsWindowScrolled] = React.useState(false);
