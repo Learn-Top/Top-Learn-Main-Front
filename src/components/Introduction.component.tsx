@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import StudentImage from "../assets/imgs/introduction-student.png";
 import { IoIosArrowRoundBack } from "react-icons/io";
-import { H2 } from "./shared/h2.component";
+import { H2 } from "./shared/H2.component";
 
 export const Introduction = () => {
   return (
