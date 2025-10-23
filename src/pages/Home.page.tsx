@@ -3,6 +3,7 @@ import { Features } from "@/components/Features.component";
 import { Header } from "@/components/Header.component";
 import { HomeTopPattern } from "@/components/HomeTopPattern.component";
 import { Introduction } from "@/components/Introduction.component";
+import { WhyTopLearn } from "@/components/WhyTopLearn.component";
 
 export const Home = () => {
   return (
@@ -12,6 +13,7 @@ export const Home = () => {
       <Introduction />
       <Features />
       <Categories />
+      <WhyTopLearn />
     </div>
   );
 };
