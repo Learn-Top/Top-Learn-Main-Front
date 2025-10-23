@@ -1,5 +1,4 @@
-import type { IFeature } from "@/components/Feature.component";
-
+import type { IFeature } from "@/types/feature";
 import FeatureImage1 from "../assets/imgs/features-1.png";
 import FeatureImage2 from "../assets/imgs/features-2.png";
 import FeatureImage3 from "../assets/imgs/features-3.png";

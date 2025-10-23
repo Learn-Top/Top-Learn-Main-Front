@@ -1,10 +1,5 @@
+import type { IFeature } from "@/types/feature";
 import type React from "react";
-
-export interface IFeature {
-  title: string;
-  description: string;
-  icon: string;
-}
 
 export const Feature: React.FC<IFeature> = ({ title, description, icon }) => {
   return (
