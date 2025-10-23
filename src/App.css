@@ -8,36 +8,42 @@
   font-style: normal;
   font-weight: 200 700;
   src: url("./assets/fonts/bakh/YekanBakhVF.ttf") format("woff2");
+  font-display: swap;
 }
 @font-face {
   font-family: Peyda;
   font-style: normal;
   font-weight: 400;
   src: url("./assets/fonts/peyda/PeydaWeb-Regular.woff2") format("woff2");
+  font-display: swap;
 }
 @font-face {
   font-family: Peyda;
   font-style: normal;
   font-weight: 500;
   src: url("./assets/fonts/peyda/PeydaWeb-Medium.woff2") format("woff2");
+  font-display: swap;
 }
 @font-face {
   font-family: Peyda;
   font-style: normal;
   font-weight: 700;
   src: url("./assets/fonts/peyda/PeydaWeb-Bold.woff2") format("woff2");
+  font-display: swap;
 }
 @font-face {
   font-family: Peyda;
   font-style: normal;
   font-weight: 800;
   src: url("./assets/fonts/peyda/PeydaWeb-ExtraBold.woff2") format("woff2");
+  font-display: swap;
 }
 @font-face {
   font-family: Peyda;
   font-style: normal;
   font-weight: 900;
   src: url("./assets/fonts/peyda/PeydaWeb-Black.woff2") format("woff2");
+  font-display: swap;
 }
 
 @utility container {
@@ -99,6 +105,8 @@
 }
 
 :root {
+  user-select: none;
+
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);

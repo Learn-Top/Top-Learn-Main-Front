@@ -1,3 +1,4 @@
+import { Categories } from "@/components/Categories.component";
 import { Features } from "@/components/Features.component";
 import { Header } from "@/components/Header.component";
 import { HomeTopPattern } from "@/components/HomeTopPattern.component";
@@ -10,6 +11,7 @@ export const Home = () => {
       <Header />
       <Introduction />
       <Features />
+      <Categories />
     </div>
   );
 };
